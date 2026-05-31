@@ -348,5 +348,25 @@ p {
 }
 
 @media (min-width: 1024px) {
+  .footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
+  }
+
+  .footer__wrapper {
+    grid-column: 1/2;
+  }
+
+  .footer-map--wrapper {
+    grid-column: 2/2;
+  }
+
+  .footer__map {
+    margin-top: 0;
+  }
+
+  .footer__colonticul, .footer__rightsWrap {
+    grid-column: 1 / -1;
+  }
 }
