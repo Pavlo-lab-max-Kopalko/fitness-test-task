@@ -26,7 +26,7 @@ p {
 
 .site-header {
   padding: 0 16px;
-  background-image: url('./imagaes/header-mobile-man.jpg');
+  background-image: url('./images/header-mobile-man.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -109,7 +109,7 @@ p {
 }
 
 .call-to-action {
-  background-image: url(./imagaes/last-man.jpg);
+  background-image: url(./images/last-man.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
